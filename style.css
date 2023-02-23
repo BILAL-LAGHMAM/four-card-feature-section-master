@@ -111,7 +111,48 @@ section{
     box-shadow: 1px 1px 20px 1px hsl(229, 6%, 66%);
 }
 
-@media screen and (max-width:1020px){
+@media screen and (max-width:350px) {
+    section{
+        margin: 0;
+        padding: 20px;
+        width: 100vw;
+        align-items: center;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        padding-top: 20px;
+        height: max-content;
+    }
+    .secon{
+        width: 100vw;
+        align-items: center;
+    }
+    .title {
+        width: 90vw;
+        margin: 0;
+        height: max-content;
+        gap: 1.2rem;
+    }
+    .super{
+        width: 90vw;
+        background-position-x: 29vw;
+        background-position-y: 17vh;
+        background-size: 98px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .team, .karma, .calcul{
+        width: 90vw;
+    }
+
+}
+
+
+
+
+/* @media screen and (max-width:1020px){
     section{
         gap: 2rem;
     }
@@ -151,4 +192,4 @@ section{
     .title{
         gap: 0.6rem;
     }
-}
+} */
