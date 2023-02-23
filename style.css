@@ -111,7 +111,7 @@ section{
     box-shadow: 1px 1px 20px 1px hsl(229, 6%, 66%);
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:550px) {
     section{
         margin: 0;
         padding: 20px;
