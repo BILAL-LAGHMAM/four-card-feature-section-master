@@ -111,7 +111,7 @@ section{
     box-shadow: 1px 1px 20px 1px hsl(229, 6%, 66%);
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:600px) {
     section{
         margin: 0;
         padding: 20px;
@@ -137,14 +137,28 @@ section{
     }
     .super{
         width: 90vw;
-        background-position-x: 29vw;
+        background-position-x: 46vw;
         background-position-y: 17vh;
-        background-size: 98px;
+        background-size: 20vw;
         font-size: 22px;
-        text-align: center;
     }
     .team, .karma, .calcul{
         width: 90vw;
+    }
+    .team{
+        background-size: 20vw;
+        background-position-x: 35vw;
+        background-position-y: 15vh;
+    }
+    .karma{
+        background-size: 20vw;
+        background-position-x: 34vw;
+        background-position-y: 14vh;
+    }
+    .calcul{
+        background-size: 20vw;
+        background-position-x: 36vw;
+        background-position-y: 16vh;
     }
 
 }
@@ -152,44 +166,108 @@ section{
 
 
 
-/* @media screen and (max-width:1020px){
+@media screen and (min-width:601px) and (max-width:900px){
     section{
-        gap: 2rem;
-    }
-    .super {
-        width: 42%;
-        background-position: 230px 14vh;
-        height: 25vh;
-    }
-    .main {
-        display: flex;
-        gap: 2rem;
-        flex-direction: column;
+        margin: 0;
+        padding: 20px;
+        width: 100vw;
         align-items: center;
-        height: 130vh;
     }
-    .secon {
+    .main{
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        width: 100vw;
+        padding-top: 20px;
+        height: max-content;
     }
-    .calcul {
-        align-self: initial;
-        height: 25vh;
-        background-position: 230px 16vh;
-        background-size: 13%;
+    .secon{
+        width: 100vw;
+        align-items: center;
     }
-    .karma{
-        height: 25vh;
-        background-position: 230px 14vh;
-
+    .title {
+        width: 90vw;
+        margin: 0;
+        height: max-content;
+        gap: 1.2rem;
+    }
+    .super{
+        width: 90vw;
+        height: 43vh;
+        background-position-x: 46vw;
+        background-position-y: 17vh;
+        background-size: 20vw;
+        font-size: 22px;
+    }
+    .team, .karma, .calcul{
+        width: 90vw;
+        height: 43vh;
     }
     .team{
-        height: 25vh;
-        background-position: 230px 16vh;
-        background-size: 12%;
+        background-size: 20vw;
+        background-position-x: 35vw;
+        background-position-y: 15vh;
     }
-    .title{
-        gap: 0.6rem;
+    .karma{
+        background-size: 20vw;
+        background-position-x: 34vw;
+        background-position-y: 14vh;
     }
-} */
+    .calcul{
+        background-size: 20vw;
+        background-position-x: 36vw;
+        background-position-y: 16vh;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1020px){
+    section{
+        margin: 0;
+        padding: 20px;
+        width: 100vw;
+        align-items: center;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        padding-top: 20px;
+        height: max-content;
+    }
+    .secon{
+        width: 100vw;
+        align-items: center;
+    }
+    .title {
+        width: 90vw;
+        margin: 0;
+        height: max-content;
+        gap: 1.2rem;
+    }
+    .super{
+        width: 90vw;
+        height: 52vh;
+        background-position-x: 46vw;
+        background-position-y: 17vh;
+        background-size: 20vw;
+        font-size: 22px;
+    }
+    .team, .karma, .calcul{
+        width: 90vw;
+        height: 52vh;
+    }
+    .team{
+        background-size: 20vw;
+        background-position-x: 35vw;
+        background-position-y: 15vh;
+    }
+    .karma{
+        background-size: 20vw;
+        background-position-x: 34vw;
+        background-position-y: 14vh;
+    }
+    .calcul{
+        background-size: 20vw;
+        background-position-x: 36vw;
+        background-position-y: 16vh;
+    }
+}
